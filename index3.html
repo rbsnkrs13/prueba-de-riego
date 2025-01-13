@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 1</title>
+    <link rel="stylesheet" href="cssIndex3.css">
+    <script src="script.js"></script>
+</head>
+    <body>
+        <div id="divT">
+            <h1>Sistema de riego</h1>
+                <div id="d1">
+                    <p class="irrigador">Irrigador 1</p>
+                    <input type="button" id="b1" name="b1" value="D" class="circleb" onclick="Encender(1)">
+                    <p id="caudal1" class="caudal" style="display: none;">Caudal: 0 L/min</p>
+                    <p id="cambio1" class="caudalCambio" style="display: none;">Cambio: 0 L/min</p>
+                </div>
+                <div id="d2">
+                    <p class="irrigador">Irrigador 2</p>
+                    <input type="button" id="b2" name="b2" value="D" class="circleb" onclick="Encender(2)">
+                    <p id="caudal2" class="caudal" style="display: none;">Caudal: 0 L/min</p>
+                    <p id="cambio2" class="caudalCambio" style="display: none;">Cambio: 0 L/min</p>
+                </div>
+                <div id="d3">
+                    <p class="irrigador">Irrigador 3</p>
+                    <input type="button" id="b3" name="b3" value="D" class="circleb" onclick="Encender(3)">
+                    <p id="caudal3" class="caudal" style="display: none;">Caudal: 0 L/min</p>
+                    <p id="cambio3" class="caudalCambio" style="display: none;">Cambio: 0 L/min</p>
+                </div>
+                <div id="d4">
+                    <p class="irrigador">Irrigador 4</p>
+                    <input type="button" id="b4" name="b4" value="D" class="circleb" onclick="Encender(4)">
+                    <p id="caudal4" class="caudal" style="display: none;">Caudal: 0 L/min</p>
+                    <p id="cambio4" class="caudalCambio" style="display: none;">Cambio: 0 L/min</p>
+                </div>
+                <div id="d5">
+                    <p class="irrigador">Irrigador 5</p>
+                    <input type="button" id="b5" name="b5" value="D" class="circleb" onclick="Encender(5)">
+                    <p id="caudal5" class="caudal" style="display: none;">Caudal: 0 L/min</p>
+                    <p id="cambio5" class="caudalCambio" style="display: none;">Cambio: 0 L/min</p>
+                </div>
+        </div>
+        <div id="divT2">
+            <div id="cont1" style="display: none; color:red; background-color: aquamarine;" >
+                <p>Maiz (6-8 L-min)</p>
+            </div>
+            <div id="cont2" style="display: none; color:orange;background-color: blueviolet">
+                <p>Trigo (5-7 L-min)</p>
+            </div>
+            <div id="cont3" style="display: none; color:aqua; background-color: yellowgreen">
+                <p>Girasol (4-6 L-min)</p>
+            </div>
+            <div id="cont4" style="display: none; color:blueviolet; background-color: sandybrown">
+                <p>Soja (7-9 L-min)</p>
+            </div>
+            <div id="cont5" style="display: none; color:brown;background-color:green">
+                <p>Arroz (3-5 L-min)</p>
+            </div>
+    </body>
+    </html>
+    

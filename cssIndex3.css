@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#divT {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#divT > div {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Estilo para los divs de irrigadores */
+.irrigador {
+    color: blue;
+    margin: 20px 0;
+}
+
+.caudal {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.caudalCambio {
+    font-size: 14px;
+    
+}
+
+.circleb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+/* Estilo para el contenedor de cultivos */
+#divT2 {
+    display: flex; /* Usar flexbox para alinear los elementos de forma más controlada */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en la siguiente línea si no caben */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 20px;
+}
+
+/* Estilos para los divs de cultivos (cont1, cont2, cont3, etc.) */
+#divT2 > div {
+    display: block; /* Alinearlos uno debajo del otro */
+    width: 130px; /* Igual que los divs de irrigadores */
+    margin: 25px; /* Sin márgenes extra entre los contenedores */
+    background-color: white; /* Fondo blanco */
+    border: 2px solid blue; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing: border-box; /* Para que el borde no afecte al tamaño */
+    text-align: center;
+    
+}
+
+/* Puedes personalizar los estilos de los cultivos si deseas */
+#cont1, #cont2, #cont3, #cont4, #cont5 {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    
+}
+
